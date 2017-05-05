@@ -1,9 +1,9 @@
 module.exports = {
     entry: {
-        'bundle.webpack': './index.js'
+        'bundle.webpack': './src/index.js'
     },
     output: {
-        filename: '[name].js'
+        filename: 'dist/[name].js'
     },
     module: {
         rules: [{
