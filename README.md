@@ -1,10 +1,6 @@
 <div align="center">
-  <a href="https://github.com/webpack/webpack">
-    <img width="160" height="180" src="https://webpack.js.org/6bc5d8cf78d442a984e70195db059b69.svg" />
-  </a>
-  <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200" src="https://rollupjs.org/logo.svg" />
-  </a>
+  <a href="https://github.com/webpack/webpack"><img width="160" height="180" src="https://webpack.js.org/6bc5d8cf78d442a984e70195db059b69.svg" /></a>
+  <a href="https://github.com/webpack/webpack"><img width="200" height="200" src="https://rollupjs.org/logo.svg" /></a>
   <h1>Webpack vs Rollup</h1>
 </div>
 
