@@ -1,0 +1,31 @@
+{
+  "name": "webpack-vs-rollup",
+  "version": "1.0.0",
+  "description": "webpack vs rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msn0/webpack-vs-rollup.git"
+  },
+  "keywords": [
+    "webpack",
+    "rollup"
+  ],
+  "author": "Michał Jezierski <ambinanitelo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msn0/webpack-vs-rollup/issues"
+  },
+  "homepage": "https://github.com/msn0/webpack-vs-rollup#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-helmut": "^1.2.0",
+    "rollup": "^0.41.6",
+    "webpack": "^2.5.0"
+  }
+}
