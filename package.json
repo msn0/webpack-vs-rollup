@@ -9,7 +9,11 @@
     "build-simple-rollup-prod": "BUILD=production rollup -c simple/rollup.config.js",
     "build-simple-webpack-dev": "webpack --config simple/webpack.config.js",
     "build-simple-webpack-prod": "BUILD=production webpack --config simple/webpack.config.js",
-    "build-all": "npm run build-simple-rollup-dev && npm run build-simple-rollup-prod && npm run build-simple-webpack-dev && npm run build-simple-webpack-prod"
+    "build-complex-rollup-dev": "rollup -c complex/rollup.config.js",
+    "build-complex-rollup-prod": "BUILD=production rollup -c complex/rollup.config.js",
+    "build-complex-webpack-dev": "webpack --config complex/webpack.config.js",
+    "build-complex-webpack-prod": "BUILD=production webpack --config complex/webpack.config.js",
+    "build-all": "npm run build-simple-rollup-dev && npm run build-simple-rollup-prod && npm run build-simple-webpack-dev && npm run build-simple-webpack-prod && npm run build-complex-rollup-dev && npm run build-complex-rollup-prod && npm run build-complex-webpack-dev && npm run build-complex-webpack-prod"
   },
   "repository": {
     "type": "git",
