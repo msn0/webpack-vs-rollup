@@ -4,7 +4,9 @@
   "description": "webpack vs rollup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "node build.js",
+    "build-prod": "BUILD=production npm run build-dev"
   },
   "repository": {
     "type": "git",

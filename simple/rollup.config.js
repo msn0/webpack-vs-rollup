@@ -1,6 +1,6 @@
-import babelrc from 'babelrc-rollup';
-import babel from 'rollup-plugin-babel';
-import uglify from 'rollup-plugin-uglify';
+const babelrc = require('babelrc-rollup');
+const babel = require('rollup-plugin-babel');
+const uglify = require('rollup-plugin-uglify');
 
 const configuration = {
     entry: 'src/index.js',
@@ -17,4 +17,4 @@ if (process.env.BUILD === 'production') {
     configuration.plugins.push(uglify());
 }
 
-export default configuration;
+module.exports = configuration;
