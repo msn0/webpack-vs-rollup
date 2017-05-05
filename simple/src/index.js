@@ -1,3 +1,5 @@
 import component from './component';
 
-component();
+const message = component();
+
+console.log(message);

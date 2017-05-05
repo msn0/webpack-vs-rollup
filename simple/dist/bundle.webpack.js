@@ -94,7 +94,9 @@ var _component2 = _interopRequireDefault(_component);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _component2.default)();
+var message = (0, _component2.default)();
+
+console.log(message);
 
 /***/ })
 /******/ ]);

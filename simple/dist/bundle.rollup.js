@@ -1,10 +1,12 @@
 (function () {
 'use strict';
 
-var component = () => {
+var component = (function () {
     return 'this is a component';
-};
+});
 
-component();
+var message = component();
+
+console.log(message);
 
 }());
