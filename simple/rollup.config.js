@@ -1,20 +1,21 @@
-const babelrc = require('babelrc-rollup');
-const babel = require('rollup-plugin-babel');
-const uglify = require('rollup-plugin-uglify');
+import babelrc from 'babelrc-rollup';
+import babel from 'rollup-plugin-babel';
+import uglify from 'rollup-plugin-uglify';
+import path from 'path';
 
 const configuration = {
-    entry: 'src/index.js',
-    dest: 'dist/bundle.rollup.js',
+    entry: path.resolve(__dirname, 'src') + '/index.js',
+    dest: path.resolve(__dirname, 'dist') + '/bundle.rollup.js',
     format: 'iife',
     moduleName: 'Simple',
     plugins: [
-        babel(babelrc({ path: '../.babelrc' }))
+        babel(babelrc({ path: path.resolve(__dirname, '../') + '/.babelrc' }))
     ]
 };
 
 if (process.env.BUILD === 'production') {
-    configuration.dest = 'dist/bundle.rollup.min.js';
+    configuration.dest = path.resolve(__dirname, 'dist') + '/bundle.rollup.min.js';
     configuration.plugins.push(uglify());
 }
 
-module.exports = configuration;
+export default configuration;

@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-dev": "node build.js",
-    "build-prod": "BUILD=production npm run build-dev"
+    "build-simple-rollup-dev": "rollup -c simple/rollup.config.js",
+    "build-simple-rollup-prod": "BUILD=production rollup -c simple/rollup.config.js",
+    "build-simple-webpack-dev": "webpack --config simple/webpack.config.js",
+    "build-simple-webpack-prod": "BUILD=production webpack --config simple/webpack.config.js",
+    "build-all": "npm run build-simple-rollup-dev && npm run build-simple-rollup-prod && npm run build-simple-webpack-dev && npm run build-simple-webpack-prod"
   },
   "repository": {
     "type": "git",
