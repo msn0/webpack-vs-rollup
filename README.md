@@ -21,3 +21,13 @@ Very simple application - 1 exported module.
 | uncompressed  |        3159 b |         157 b |
 | minified      |         747 b |          64 b |
 
+
+### complex
+
+Complex application - 30 exported modules with unused functions.
+
+| bundle type   | Webpack       | Rollup        |
+| ------------- | -------------:|--------------:|
+| uncompressed  |       29039 b |        7255 b |
+| minified      |       10561 b |        3120 b |
+
