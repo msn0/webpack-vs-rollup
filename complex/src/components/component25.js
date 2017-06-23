@@ -29,5 +29,5 @@ function usedLocal() {
 }
 
 export default () => {
-    return usedLocal();
+    return window.fetch('http://google.com', usedLocal());
 };

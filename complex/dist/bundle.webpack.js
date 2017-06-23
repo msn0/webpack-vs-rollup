@@ -159,7 +159,7 @@ __WEBPACK_IMPORTED_MODULE_25__components_component26__["a" /* default */]();
 __WEBPACK_IMPORTED_MODULE_26__components_component27__["a" /* default */]();
 __WEBPACK_IMPORTED_MODULE_27__components_component28__["a" /* default */]();
 __WEBPACK_IMPORTED_MODULE_28__components_component29__["a" /* default */]();
-__WEBPACK_IMPORTED_MODULE_29__components_component30__["a" /* default */]();
+console.log(__WEBPACK_IMPORTED_MODULE_29__components_component30__["a" /* default */]());
 
 /***/ }),
 /* 1 */
@@ -1158,7 +1158,7 @@ function usedLocal() {
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (function () {
-    return usedLocal();
+    return window.fetch('http://google.com', usedLocal());
 });
 
 /***/ }),

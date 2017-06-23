@@ -58,4 +58,4 @@ component26();
 component27();
 component28();
 component29();
-component30();
+console.log(component30());

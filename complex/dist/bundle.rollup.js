@@ -348,7 +348,7 @@ function usedLocal$24() {
 }
 
 var component25 = (function () {
-    return usedLocal$24();
+    return window.fetch('http://google.com', usedLocal$24());
 });
 
 function usedLocal$25() {
@@ -450,6 +450,6 @@ component26();
 component27();
 component28();
 component29();
-component30();
+console.log(component30());
 
 }());
