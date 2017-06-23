@@ -25,5 +25,5 @@ Complex application - 30 exported modules with unused functions.
 | bundle type   | Webpack       | Rollup        |
 | ------------- | -------------:|--------------:|
 | uncompressed  |       29039 B |        7255 B |
-| minified      |       10561 B |        3120 B |
+| minified      |        5217 B |        3120 B |
 
