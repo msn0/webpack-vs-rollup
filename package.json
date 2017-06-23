@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-simple-rollup-dev": "rollup -c simple/rollup.config.js",
+    "build-simple-rollup-dev": "rollup  -c simple/rollup.config.js",
     "build-simple-rollup-prod": "BUILD=production rollup -c simple/rollup.config.js",
     "build-simple-webpack-dev": "webpack --config simple/webpack.config.js",
     "build-simple-webpack-prod": "BUILD=production webpack --config simple/webpack.config.js",
@@ -33,7 +33,7 @@
   "homepage": "https://github.com/msn0/webpack-vs-rollup#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-loader": "^7.0.0",
+    "babel-loader": "^7.1.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2015-rollup": "^3.0.0",
@@ -42,7 +42,7 @@
     "babelrc-rollup": "^3.0.0",
     "eslint": "^3.19.0",
     "eslint-config-helmut": "^1.2.0",
-    "rollup": "^0.42.0",
+    "rollup": "^0.43.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-jsx": "^1.0.3",
@@ -52,7 +52,7 @@
     "webpack": "^2.6.1"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
